@@ -1,0 +1,14 @@
+.block
+  display: flex
+  flex-direction: column
+  gap: 20px
+  &Title
+    font-weight: 600
+  &Cards
+    display: flex
+    flex-direction: column
+    gap: 20px
+    @media screen and (min-width: 485px)
+      display: grid
+      gap: 15px
+      grid-template-columns: repeat(2,50%)

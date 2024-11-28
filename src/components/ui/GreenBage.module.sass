@@ -1,0 +1,24 @@
+.block
+  background-color: rgba(10, 104, 71, 0.3)
+  padding: 6px 15px
+  border-radius: 15px
+  font-family: var(--font-secondary)
+  width: max-content
+  display: flex
+  align-items: center
+  gap: 10px
+  animation: blink 1.2s infinite
+  &Dot
+    background-color: #7ABA78
+    width: 5px
+    height: 5px
+    border-radius: 50%
+  &Text
+    color: #7ABA78
+
+@keyframes blink
+  0%, 100%
+    background-color: rgba(10, 104, 71, 0.3)
+
+  50%
+    background-color: rgba(5, 61, 41, 0.3)
