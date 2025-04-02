@@ -8,28 +8,33 @@ export default function ProjectsCard({
   imgs,
   link,
   link_address,
+  link_text,
 }) {
   return (
     <div className={styles.block}>
-      <h3 className={styles.blockTitle}>{title}</h3>
-      <p className={styles.blockText}>{text}</p>
-      {link && (
-        <Link to={link_address} target="_blank" className={styles.blockLink}>
-          cайт {">>"}
-        </Link>
-      )}
-      <div className={styles.blockImgs}>
-        {imgs &&
-          imgs.map((i, ind) => {
-            return (
-              <img
-                alt="icon"
-                src={`${i}`}
-                className={styles.blockImgsImg}
-                key={ind}
-              ></img>
-            );
-          })}
+      <div className={styles.blockHeader}>
+        <h3 className={styles.blockTitle}>{title}</h3>
+        <p className={styles.blockText}>{text}</p>
+      </div>
+      <div className={styles.blockFooter}>
+        {link && (
+          <Link to={link_address} target="_blank" className={styles.blockLink}>
+            {link_text} {">>"}
+          </Link>
+        )}
+        <div className={styles.blockImgs}>
+          {imgs &&
+            imgs.map((i, ind) => {
+              return (
+                <img
+                  alt="icon"
+                  src={`${i}`}
+                  className={styles.blockImgsImg}
+                  key={ind}
+                ></img>
+              );
+            })}
+        </div>
       </div>
     </div>
   );

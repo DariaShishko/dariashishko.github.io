@@ -7,3 +7,7 @@ export const TELEGRAM = "https://t.me/cheddarss"
 export const EMAIL = "mailto:shishko231085@gmail.com"
 
 export const WIKIZNAK_PROJECT = "https://pro.wikiznak.ru/"
+
+export const ALPHA_PROFIT = "https://www.linkedin.com/company/alpha-profit/"
+
+export const PUKISWAP = ""

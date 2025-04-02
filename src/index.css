@@ -7,7 +7,8 @@
 
   --light-text-color: rgba(255, 255, 255, 1);
   --dark-text-color: #;
-  --accent-text-color: #;
+  --accent-text-color-light: #a8c0ff  ;
+  --accent-text-color-dark: #7ABA78;
 
   font-family: var(--main-font);
   color: var(--light-text-color);
