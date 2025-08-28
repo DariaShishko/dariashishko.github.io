@@ -9,8 +9,7 @@ export default function StartScreen() {
     <div className={styles.block}>
       <GreenBage />
       <h1 className={styles.blockTitle}>
-        Frontend <br /> Developer{" "}
-        <sup className={styles.blockTitleSpan}>junior</sup>
+        Frontend <br /> Developer
       </h1>
       <div className={styles.blockContacts}>
         <ContactBlock

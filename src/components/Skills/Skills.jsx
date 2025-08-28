@@ -15,7 +15,7 @@ export default function Skills() {
         <SkillsCard img="/sass.svg" text="SCCS" />
         <SkillsCard img="/js.svg" text="JavaScript" />
         <SkillsCard img="/ts.svg" text="TypeScript" />
-        <SkillsCard img="/ethers.svg" text="Ethers.js" />
+        {/* <SkillsCard img="/ethers.svg" text="Ethers.js" /> */}
       </div>
       <div className={styles.blockAdditional}>
         <h3 className={styles.blockAdditionalTitle}>Дополнительно:</h3>
